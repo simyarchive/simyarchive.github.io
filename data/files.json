@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "name": "예제 파일 1",
+        "archiveUrl": "https://archive.org/details/example1",
+        "uploadedAt": "2026-06-30T10:00:00Z",
+        "downloads": 5,
+        "description": "인터넷 아카이브 예제 파일"
+    },
+    {
+        "id": 2,
+        "name": "예제 파일 2",
+        "archiveUrl": "https://archive.org/details/example2",
+        "uploadedAt": "2026-06-29T15:30:00Z",
+        "downloads": 3,
+        "description": "테스트용 파일"
+    }
+]
