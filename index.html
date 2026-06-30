@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet Archive 리더보드</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📚 Internet Archive 리더보드</h1>
+            <p>인터넷 아카이브 파일 모음</p>
+        </header>
+
+        <div class="controls">
+            <div class="sort-buttons">
+                <button class="sort-btn active" data-sort="latest">최신순</button>
+                <button class="sort-btn" data-sort="name">이름순</button>
+                <button class="sort-btn" data-sort="downloads">다운로드 수</button>
+            </div>
+            <input type="text" id="searchInput" class="search-input" placeholder="파일 검색...">
+        </div>
+
+        <div id="leaderboard" class="leaderboard">
+            <div class="loading">로드 중...</div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
